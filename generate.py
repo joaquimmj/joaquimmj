@@ -1,6 +1,6 @@
-"""Génère dark_mode.svg et light_mode.svg : portrait en ASCII à gauche, fiche « neofetch » à droite.
+"""Builds dark_mode.svg and light_mode.svg: ASCII portrait on the left, neofetch-style card on the right.
 
-Usage : python generate.py photo.jpg
+Usage: python generate.py photo.jpg
 """
 import sys
 from html import escape
@@ -8,9 +8,9 @@ from html import escape
 from PIL import Image, ImageOps
 
 USER = "joaquim@manjijung"
-WIDTH = 51  # largeur de la colonne d'infos, en caractères
+WIDTH = 51  # width of the info column, in characters
 
-# (clé, valeur) ; une clé vide = ligne vide, une clé commençant par "—" = titre de section
+# (key, value); an empty key = blank line, a key starting with "—" = section title
 INFO = [
     ("OS", "macOS"),
     ("Location", "Paris, France"),
@@ -20,7 +20,7 @@ INFO = [
     ("Languages.Programming", "TypeScript, Python, C++"),
     ("Languages.Web", "JavaScript, HTML, CSS"),
     ("Languages.Data", "SQL, PL/pgSQL, Shell"),
-    ("Languages.Real", "Français, English, Deutsch"),
+    ("Languages.Real", "French, English, German"),
     ("", ""),
     ("— Projects", ""),
     ("Aptence", "aptence.app"),
@@ -32,7 +32,7 @@ INFO = [
     ("Website", "aptence.app"),
 ]
 
-ASCII_COLS, ASCII_ROWS = 38, 20  # cellule ≈ 10,5 × 20 px : 38 × 20 garde une image carrée
+ASCII_COLS, ASCII_ROWS = 38, 20  # a cell is ~10.5 × 20 px, so 38 × 20 keeps the image square
 RAMP = " .'`^\",:;Il!i><~+_-?][}{1)(|tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 
 THEMES = {
@@ -46,17 +46,18 @@ def to_ascii(path):
     box = img.point(lambda v: 255 if v > 40 else 0).getbbox()
     if box:
         m = 12
-        img = img.crop((max(box[0] - m, 0), max(box[1] - m, 0), min(box[2] + m, img.width), min(box[3] + m, img.height)))  # recadre sur le sujet si le fond est noir
+        img = img.crop((max(box[0] - m, 0), max(box[1] - m, 0), min(box[2] + m, img.width), min(box[3] + m, img.height)))  # crop to the subject on a dark background
     img = ImageOps.autocontrast(img.resize((ASCII_COLS, ASCII_ROWS)))
     px = img.load()
-    char = lambda v: " " if v < 40 else RAMP[v * (len(RAMP) - 1) // 255]  # fond sombre = vide
+    char = lambda v: " " if v < 40 else RAMP[v * (len(RAMP) - 1) // 255]  # dark background = blank
     return ["".join(char(px[x, y]) for x in range(ASCII_COLS)) for y in range(ASCII_ROWS)]
 
 
-def info_lines(t):
+
+def info_lines(t, info):
     head = f"{USER} " + "—" * (WIDTH - len(USER) - 1)
     out = [f'<tspan fill="{t["fg"]}">{escape(head)}</tspan>']
-    for key, value in INFO:
+    for key, value in info:
         if not key:
             out.append(f'<tspan fill="{t["fg"]}">.</tspan>')
         elif key.startswith("—"):
@@ -72,11 +73,13 @@ def info_lines(t):
     return out
 
 
-def svg(art, t):
+def svg(art, info, t):
     lh, x0, x1, y0 = 20, 15, 435, 30
-    rows = [f'<tspan x="{x0}" y="{y0 + i * lh}">{escape(r)}</tspan>' for i, r in enumerate(art)]
-    infos = [f'<tspan x="{x1}" y="{y0 + i * lh}">{l}</tspan>' for i, l in enumerate(info_lines(t))]
-    h = y0 + max(len(art), len(infos)) * lh
+    lines = info_lines(t, info)
+    top = y0 + max(0, len(lines) - len(art)) * lh // 2  # centre the portrait next to the card
+    rows = [f'<tspan x="{x0}" y="{top + i * lh}">{escape(r)}</tspan>' for i, r in enumerate(art)]
+    infos = [f'<tspan x="{x1}" y="{y0 + i * lh}">{l}</tspan>' for i, l in enumerate(lines)]
+    h = y0 + max(len(art), len(lines)) * lh
     return f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="{h}px" font-size="16px">
 <style>
@@ -92,6 +95,7 @@ text, tspan {{ white-space: pre; }}
 
 if __name__ == "__main__":
     art = to_ascii(sys.argv[1])
+    info = INFO
     for name, theme in THEMES.items():
         with open(f"{name}_mode.svg", "w") as f:
-            f.write(svg(art, theme))
+            f.write(svg(art, info, theme))
