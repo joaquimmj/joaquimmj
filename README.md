@@ -4,7 +4,7 @@
 
 <p align="center"><samp>
 i build ai tools for finance, and study how llm agents get numbers wrong.<br>
-economics + computer science at paris 1 panthéon-sorbonne.
+economics + computer science student in paris.
 </samp></p>
 
 <p align="center"><samp>
