@@ -1,17 +1,14 @@
 <p align="center"><samp>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:++:.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.:+*######*++:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;.:+*###############*+.&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;:*####################*+&nbsp;&nbsp;<br>
-.+::.:+*############*+:++###<br>
-.+++++:&nbsp;:+++*###*+++*#######<br>
-&nbsp;::+++:+####++:+*##########+<br>
-&nbsp;::...&nbsp;+###############+:...<br>
-.+++++:.:*#########+...::::.<br>
-.+++++++++:::+*+...::::::::.<br>
-&nbsp;&nbsp;.:+++++++++:&nbsp;:::::::::..&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.:+++++:&nbsp;:::::..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.::.&nbsp;...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.:++*+:.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.++*##########**+:.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;.+*#####################*:&nbsp;&nbsp;<br>
+&nbsp;:::::++*############*+++**##*<br>
+&nbsp;++++++&nbsp;:**+++**+++**########*<br>
+&nbsp;.:::::&nbsp;##################++.&nbsp;<br>
+&nbsp;+++++:.:+##########*+:..::::.<br>
+&nbsp;:+++++++++:::++:..::::::::::.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;..:+++++++:&nbsp;:::::::..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.::+.&nbsp;....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </samp></p>
 
 <h3 align="center"><samp>joaquim manji-jung</samp></h3>
