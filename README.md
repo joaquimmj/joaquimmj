@@ -1,56 +1,42 @@
-<a href="https://aptence.app">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-    <img alt="Joaquim Manji-Jung. I build AI tools for finance, and study how LLM agents get numbers wrong." src="assets/header-light.svg" width="100%">
-  </picture>
-</a>
+<br>
+
+<h3 align="center"><samp>joaquim manji-jung</samp></h3>
+
+<p align="center"><samp>
+i build ai tools for finance, and study how llm agents get numbers wrong.<br>
+economics + computer science at paris 1 panthéon-sorbonne.
+</samp></p>
+
+<p align="center"><samp>
+<a href="https://github.com/joaquimmj/deskstack/blob/main/bench/paper/deskstack-bench.pdf">paper</a> .
+<a href="https://github.com/joaquimmj/deskstack">deskstack</a> .
+<a href="https://github.com/joaquimmj/freeterminal">freeterminal</a> .
+<a href="https://github.com/joaquimmj/cellrush">cellrush</a> .
+<a href="https://github.com/joaquimmj/gapscout">gapscout</a> .
+<a href="https://aptence.app">aptence</a> .
+<a href="https://quantacademy.app">quantacademy</a> .
+<a href="https://www.linkedin.com/in/joaquimmanjijung/">linkedin</a>
+</samp></p>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-research-dark.svg">
-  <img alt="Research" src="assets/section-research-light.svg" width="100%">
-</picture>
+<samp>
 
-<a href="https://github.com/joaquimmj/deskstack/blob/main/bench/paper/deskstack-bench.pdf">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/research-dark.svg">
-    <img alt="Filling the Gaps: how often do LLM agents misreport figures when they build financial models? With web search alone, 3.5% of filed figures were wrong; with sourced data, 0 of 3,230." src="assets/research-light.svg" width="100%">
-  </picture>
-</a>
+**research**
 
-<br><br>
+[filling the gaps](https://github.com/joaquimmj/deskstack/blob/main/bench/paper/deskstack-bench.pdf) — how often do llm agents misreport figures when they build financial models? 300 runs on 50 companies: 3.5% of filed figures wrong with web search alone, 0 of 3,230 with sourced filings data. hand-checked, pre-registered, [code and data](https://github.com/joaquimmj/deskstack/tree/main/bench).
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-open-source-dark.svg">
-  <img alt="Open source" src="assets/section-open-source-light.svg" width="100%">
-</picture>
+**open source**
 
-<p>
-  <a href="https://github.com/traceroot-ai/traceroot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-traceroot-dark.svg"><img alt="TraceRoot (YC S25): contributor, LLM cost tracking" src="assets/card-traceroot-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/joaquimmj/deskstack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-deskstack-dark.svg"><img alt="deskstack: your AI deal team inside Claude" src="assets/card-deskstack-light.svg" width="49%"></picture></a>
-</p>
-<p>
-  <a href="https://github.com/joaquimmj/freeterminal"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-freeterminal-dark.svg"><img alt="freeterminal: free, citable financial data for Claude" src="assets/card-freeterminal-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/joaquimmj/cellrush"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-cellrush-dark.svg"><img alt="cellrush: Monkeytype for spreadsheets" src="assets/card-cellrush-light.svg" width="49%"></picture></a>
-</p>
+[deskstack](https://github.com/joaquimmj/deskstack) — your ai deal team inside claude. models built, tied out to the filings, reviewed.<br>
+[freeterminal](https://github.com/joaquimmj/freeterminal) — free, citable us and european financial data for claude. paste one url.<br>
+[cellrush](https://github.com/joaquimmj/cellrush) — monkeytype for spreadsheets. excel shortcuts, keyboard only.<br>
+[gapscout](https://github.com/joaquimmj/gapscout) — find problems worth building, from real complaints and real search demand.<br>
+contributor to [traceroot](https://github.com/traceroot-ai/traceroot) (yc s25) — llm cost tracking.
 
-<sub>Also: <a href="https://github.com/joaquimmj/gapscout"><b>gapscout</b></a>, find problems worth building from real complaints and real search demand.</sub>
+**building**
 
-<br><br>
+[aptence](https://aptence.app) — financial modeling assessments, graded automatically.<br>
+[quantacademy](https://quantacademy.app) — finance interview prep. 5k users, built solo.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-building-dark.svg">
-  <img alt="Building" src="assets/section-building-light.svg" width="100%">
-</picture>
-
-<p>
-  <a href="https://aptence.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-aptence-dark.svg"><img alt="Aptence: financial modeling assessments, graded automatically" src="assets/card-aptence-light.svg" width="49%"></picture></a>
-  <a href="https://quantacademy.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-quantacademy-dark.svg"><img alt="QuantAcademy: finance interview prep, 5K users, built solo" src="assets/card-quantacademy-light.svg" width="49%"></picture></a>
-</p>
-
-<br>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/joaquimmanjijung/">LinkedIn</a>
-</p>
+</samp>
