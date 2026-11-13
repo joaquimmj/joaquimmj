@@ -1,15 +1,9 @@
-<p align="center"><samp>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.:++*+:.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.++*##########**+:.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;.+*#####################*:&nbsp;&nbsp;<br>
-&nbsp;:::::++*############*+++**##*<br>
-&nbsp;++++++&nbsp;:**+++**+++**########*<br>
-&nbsp;.:::::&nbsp;##################++.&nbsp;<br>
-&nbsp;+++++:.:+##########*+:..::::.<br>
-&nbsp;:+++++++++:::++:..::::::::::.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;..:+++++++:&nbsp;:::::::..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.::+.&nbsp;....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</samp></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+    <img alt="Aptence logo in ASCII" src="assets/logo-light.svg" width="190">
+  </picture>
+</p>
 
 <h3 align="center"><samp>joaquim manji-jung</samp></h3>
 
