@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img"><style>
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .rise { animation: rise .9s ease-out both; }
+    .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; } .d3 { animation-delay: .75s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    </style>
+  <rect width="1200" height="330" rx="14" fill="#ffffff"/>
+  <g opacity=".9"><line x1="60" y1="0" x2="60" y2="330" stroke="#eaeef2"/><line x1="180" y1="0" x2="180" y2="330" stroke="#eaeef2"/><line x1="300" y1="0" x2="300" y2="330" stroke="#eaeef2"/><line x1="420" y1="0" x2="420" y2="330" stroke="#eaeef2"/><line x1="540" y1="0" x2="540" y2="330" stroke="#eaeef2"/><line x1="660" y1="0" x2="660" y2="330" stroke="#eaeef2"/><line x1="780" y1="0" x2="780" y2="330" stroke="#eaeef2"/><line x1="900" y1="0" x2="900" y2="330" stroke="#eaeef2"/><line x1="1020" y1="0" x2="1020" y2="330" stroke="#eaeef2"/><line x1="0" y1="30" x2="1200" y2="30" stroke="#eaeef2"/><line x1="0" y1="60" x2="1200" y2="60" stroke="#eaeef2"/><line x1="0" y1="90" x2="1200" y2="90" stroke="#eaeef2"/><line x1="0" y1="120" x2="1200" y2="120" stroke="#eaeef2"/><line x1="0" y1="150" x2="1200" y2="150" stroke="#eaeef2"/><line x1="0" y1="180" x2="1200" y2="180" stroke="#eaeef2"/><line x1="0" y1="210" x2="1200" y2="210" stroke="#eaeef2"/><line x1="0" y1="240" x2="1200" y2="240" stroke="#eaeef2"/><line x1="0" y1="270" x2="1200" y2="270" stroke="#eaeef2"/><line x1="0" y1="300" x2="1200" y2="300" stroke="#eaeef2"/></g>
+  <rect x="0" y="0" width="1200" height="30" fill="#f6f8fa"/><text x="120" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">A</text><text x="240" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">B</text><text x="360" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">C</text><text x="480" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">D</text><text x="600" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">E</text><text x="720" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">F</text><text x="840" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">G</text><text x="960" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">H</text><text x="1080" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">I</text><text x="1200" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8c959f">J</text>
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="#d0d7de"/>
+  <!-- formula bar -->
+  <g class="rise d1">
+    <rect x="60" y="58" width="560" height="34" rx="6" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="78" y="80" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8c959f">B2</text>
+    <line x1="108" y1="64" x2="108" y2="86" stroke="#d0d7de"/>
+    <text x="122" y="80" font-family="Newsreader, 'Iowan Old Style', Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" fill="#8c959f">fx</text>
+    <text x="148" y="80" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" fill="#1f2328">=BUILD(<tspan fill="#1a7f52">"AI tools"</tspan>, <tspan fill="#1a7f52">"finance"</tspan>)</text>
+    <rect class="cursor" x="387" y="69" width="2" height="15" fill="#1a7f52"/>
+  </g>
+  <!-- selected cell -->
+  <g class="rise d2">
+    <rect x="60" y="118" width="720" height="92" fill="#ffffff" stroke="#1a7f52" stroke-width="2"/>
+    <rect x="775" y="205" width="9" height="9" fill="#1a7f52" stroke="#ffffff" stroke-width="2"/>
+    <text x="84" y="183" font-family="Newsreader, 'Iowan Old Style', Georgia, 'Times New Roman', serif" font-size="58" fill="#1f2328">Joaquim Manji-Jung</text>
+  </g>
+  <g class="rise d3">
+    <text x="62" y="252" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#59636e">I build AI tools for finance, and study how LLM agents get numbers wrong.</text>
+    <text x="62" y="288" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8c959f">Paris · Economics + CS @ Paris 1 Panthéon-Sorbonne · Founder @ Aptence</text>
+  </g>
+  <!-- right column: three key figures -->
+  <g class="rise d3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace">
+    <text x="860" y="150" font-size="22" font-weight="600" fill="#1f2328">3.5% → 0</text><text x="860" y="170" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#59636e">figures wrong: web search vs sourced data</text>
+    <text x="860" y="210" font-size="22" font-weight="600" fill="#1f2328">5K</text><text x="860" y="230" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#59636e">users on QuantAcademy, built solo</text>
+    <text x="860" y="270" font-size="22" font-weight="600" fill="#1f2328">18M+</text><text x="860" y="290" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#59636e">organic views, $0 in ads</text>
+  </g>
+</svg>

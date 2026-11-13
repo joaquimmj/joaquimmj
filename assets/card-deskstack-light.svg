@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="190" viewBox="0 0 590 190" role="img"><style></style>
+  <rect x="1" y="1" width="588" height="188" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="28" y="40" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="1.2" fill="#1a7f52">OPEN SOURCE</text>
+  
+  <text x="28" y="72" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="650" fill="#1f2328">deskstack</text>
+  <text x="28" y="98" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#59636e">Your AI deal team inside Claude. Models built, tied out to the</text><text x="28" y="119" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#59636e">filings, reviewed. Free data, US + Europe.</text>
+  <rect x="28" y="146" width="42.8" height="22" rx="11" fill="#dcf3e7"/><text x="49.4" y="161" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#1a7f52">MCP</text><rect x="78.8" y="146" width="42.8" height="22" rx="11" fill="#dcf3e7"/><text x="100.19999999999999" y="161" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#1a7f52">SEC</text><rect x="129.6" y="146" width="50.4" height="22" rx="11" fill="#dcf3e7"/><text x="154.79999999999998" y="161" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#1a7f52">ESEF</text>
+</svg>
