@@ -22,4 +22,4 @@ I build AI tools for finance, and I study how LLM agents get numbers wrong.
 - [**Aptence**](https://aptence.app): financial modeling assessments, graded automatically.
 - [**QuantAcademy**](https://quantacademy.app): finance interview prep, 5K users, built solo.
 
-[joaquimmanjijung.com](https://joaquimmanjijung.com) · [LinkedIn](https://www.linkedin.com/in/joaquimmanjijung/) · [Joaquim.Manji-Jung@etu.univ-paris1.fr](mailto:Joaquim.Manji-Jung@etu.univ-paris1.fr)
+[LinkedIn](https://www.linkedin.com/in/joaquimmanjijung/)
