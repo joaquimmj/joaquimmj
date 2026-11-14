@@ -19,4 +19,4 @@ I'm building [Aptence](https://aptence.app): financial modeling tests for financ
 - [Univer](https://github.com/dream-num/univer) (24k stars): I tested 500+ of its Excel functions against LibreOffice and found a formula engine crash and wrong results in SORT, SEARCH and ROUND. [Four fixes](https://github.com/dream-num/univer/pulls?q=is%3Apr+author%3Ajoaquimmj) in review.
 - [TraceRoot](https://github.com/traceroot-ai/traceroot) (YC S25, 1.4k stars): five bugs in how it prices LLM calls. [Fix](https://github.com/traceroot-ai/traceroot/pull/2941) approved by the core team.
 
-[LinkedIn](https://www.linkedin.com/in/joaquimmanjijung/)
+Open to growth engineering roles and internships at early-stage startups in San Francisco. Reach me on [LinkedIn](https://www.linkedin.com/in/joaquimmanjijung/).
