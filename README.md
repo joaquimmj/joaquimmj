@@ -37,7 +37,9 @@ economics + computer science student in paris.
 [freeterminal](https://github.com/joaquimmj/freeterminal) — free, citable us and european financial data for claude. paste one url.<br>
 [cellrush](https://github.com/joaquimmj/cellrush) — monkeytype for spreadsheets. excel shortcuts, keyboard only.<br>
 [gapscout](https://github.com/joaquimmj/gapscout) — find problems worth building, from real complaints and real search demand.<br>
-contributor to [traceroot](https://github.com/traceroot-ai/traceroot) (yc s25) — llm cost tracking.
+contributor to [traceroot](https://github.com/traceroot-ai/traceroot) (yc s25, 1.4k stars) — llm cost tracking.<br>
+contributor to [firecrawl](https://github.com/firecrawl/firecrawl) (yc s22, 200k stars) — crawler billing file links as pages.<br>
+contributor to [univer](https://github.com/dream-num/univer) (24k stars) — formula engine crash and sort bugs, found by testing 500+ excel functions.
 
 **building**
 
