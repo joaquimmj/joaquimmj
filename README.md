@@ -6,6 +6,11 @@ I'm building [Aptence](https://aptence.app): financial modeling tests for financ
 
 **Research.** [Filling the Gaps](https://github.com/joaquimmj/deskstack/blob/main/bench/paper/deskstack-bench.pdf) measures how often Claude misreports figures when it builds financial models. Across 300 runs on 50 companies, 3.5% of the figures it filed were wrong with web search alone, and 0 of 3,230 with data taken from the filings. Every flagged figure was checked by hand, the robustness test was pre-registered, and the [code and data](https://github.com/joaquimmj/deskstack/tree/main/bench) are public.
 
+**Math.**
+
+- [Exact discrepancy bounds for some binary morphic words](https://github.com/joaquimmj/oeis-walnut/blob/main/paper/draft.pdf): a 2017 conjecture of Clark Kimberling in the OEIS (A284364 to A284366) is false, with a first counterexample at n = 2,977,771 that anyone can check in one line of integer arithmetic. The paper also proves the conjectures of twelve other OEIS entries, with the Walnut prover, hand proofs and exact computation; these proofs have not been refereed yet. The counterexample is submitted to the OEIS and under review. [Code](https://github.com/joaquimmj/oeis-walnut)
+- [Erdős #939](https://github.com/joaquimmj/erdos-939): exhaustive searches on sums of r-powerful numbers. No coprime 4-powerful solution of a + b = c up to 9·10^18, and no 5-powerful solution up to 10^20 other than the two already known. The problem stays open.
+
 **Projects**
 
 - [deskstack](https://github.com/joaquimmj/deskstack): an AI deal team inside Claude. It builds the model, checks every number against the filings and flags what a human should review.
