@@ -15,7 +15,7 @@ I'm building [Aptence](https://aptence.app): financial modeling tests for financ
 
 - [Firecrawl](https://github.com/firecrawl/firecrawl) (YC S22, 200k stars): the crawler billed links to uppercase files like `.JPG` as pages. [Fix](https://github.com/firecrawl/firecrawl/pull/5750) in review.
 - [Univer](https://github.com/dream-num/univer) (24k stars): I tested 500+ of its Excel functions against LibreOffice and found a formula engine crash and wrong results in SORT and in repeated range comparisons. [Two fixes](https://github.com/dream-num/univer/pulls?q=is%3Apr+author%3Ajoaquimmj+is%3Aopen) in review.
-- [TraceRoot](https://github.com/traceroot-ai/traceroot) (YC S25, 1.4k stars): five bugs in how it prices LLM calls. [Fix](https://github.com/traceroot-ai/traceroot/pull/2941) approved by the core team.
+- [TraceRoot](https://github.com/traceroot-ai/traceroot) (YC S25, 1.4k stars): five bugs in how it prices LLM calls ([issue](https://github.com/traceroot-ai/traceroot/issues/2937)). One [fix](https://github.com/traceroot-ai/traceroot/pull/2941) approved by the core team, to be merged after a rebase; another one was folded into the team's own fix.
 
 **Research**
 
